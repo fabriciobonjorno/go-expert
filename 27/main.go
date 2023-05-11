@@ -10,10 +10,10 @@ func main() {
 	if err != nil {
 		panic(err)
 	}
+	defer req.Body.Close() // defer atrasa o processo de execução
 	res, err := io.ReadAll(req.Body)
 	if err != nil {
 		panic(err)
 	}
 	println(string(res))
-	req.Body.Close()
 }
