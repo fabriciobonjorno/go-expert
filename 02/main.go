@@ -11,7 +11,7 @@ var (
 
 func main() {
 	// var a string = "X"
-	//a := "B" // usar : para atribuir somente a primeira vez
+	//a := "B" // usar := para atribuir somente a primeira vez
 	//a = "D"
 	println(b)
 }
