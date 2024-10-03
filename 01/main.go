@@ -1,7 +1,7 @@
 package main
 
-const a = "Hello, world!"
+// const a = "Hello, world!"
 
 func main() {
-	println(a)
+	println(a) // herda do arquivo a
 }
